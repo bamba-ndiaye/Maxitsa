@@ -1,0 +1,15 @@
+{
+    "name": "ndakhamboup/pojet-maxitsa",
+    "autoload": {
+        "psr-4": {
+            "Ndakhamboup\\PojetMaxitsa\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "bamba",
+            "email": "bambandiaye386@gmail.com"
+        }
+    ],
+    "require": {}
+}
