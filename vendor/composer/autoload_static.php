@@ -11,6 +11,14 @@ class ComposerStaticInit20f4dcbada008602a6183864be9d6f2a
         array (
             'Ndakhamboup\\PojetMaxitsa\\' => 25,
         ),
+        'A' => 
+        array (
+            'App\\service\\' => 12,
+            'App\\repository\\' => 15,
+            'App\\core\\abstract\\' => 18,
+            'App\\core\\' => 9,
+            'App\\controller\\' => 15,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -18,9 +26,37 @@ class ComposerStaticInit20f4dcbada008602a6183864be9d6f2a
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
+        'App\\service\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/service',
+        ),
+        'App\\repository\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/repository',
+        ),
+        'App\\core\\abstract\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app/core/abstract',
+        ),
+        'App\\core\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app/core',
+        ),
+        'App\\controller\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/controller',
+        ),
     );
 
     public static $classMap = array (
+        'App\\controller\\CompteController' => __DIR__ . '/../..' . '/src/controller/CompteController.php',
+        'App\\controller\\SecurityController' => __DIR__ . '/../..' . '/src/controller/SecurityController.php',
+        'App\\core\\Router' => __DIR__ . '/../..' . '/app/core/Router.php',
+        'App\\core\\abstract\\AbstractController' => __DIR__ . '/../..' . '/app/core/abstract/AbstractController.php',
+        'App\\core\\abstract\\AbstractRepository' => __DIR__ . '/../..' . '/app/core/abstract/AbstractRepository.php',
+        'App\\core\\abstract\\Database' => __DIR__ . '/../..' . '/app/core/abstract/Database.php',
+        'App\\repository\\UtilisateurRepository' => __DIR__ . '/../..' . '/src/repository/UtilisateurRepository.php',
+        'App\\service\\AuthentificationService' => __DIR__ . '/../..' . '/src/service/AuthentificationService.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 

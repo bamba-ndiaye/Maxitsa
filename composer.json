@@ -2,7 +2,14 @@
     "name": "ndakhamboup/pojet-maxitsa",
     "autoload": {
         "psr-4": {
-            "Ndakhamboup\\PojetMaxitsa\\": "src/"
+            "Ndakhamboup\\PojetMaxitsa\\": "src/",
+            "App\\controller\\":"src/controller/",
+            "App\\core\\":"app/core/",
+            "App\\core\\abstract\\":"app/core/abstract",
+            "App\\repository\\":"src/repository/",
+            "App\\service\\":"src/service/"
+
+
         }
     },
     "authors": [
